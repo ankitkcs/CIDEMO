@@ -26,6 +26,7 @@
 		007CCDD61DA5226300241D1B /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 007CCDCB1DA5226300241D1B /* AFURLRequestSerialization.m */; };
 		007CCDD71DA5226300241D1B /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 007CCDCD1DA5226300241D1B /* AFURLResponseSerialization.m */; };
 		007CCDD81DA5226300241D1B /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 007CCDCF1DA5226300241D1B /* AFURLSessionManager.m */; };
+		007CCDDB1DA527AE00241D1B /* welcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 007CCDDA1DA527AE00241D1B /* welcomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,8 @@
 		007CCDCD1DA5226300241D1B /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		007CCDCE1DA5226300241D1B /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		007CCDCF1DA5226300241D1B /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		007CCDD91DA527AE00241D1B /* welcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = welcomeViewController.h; sourceTree = "<group>"; };
+		007CCDDA1DA527AE00241D1B /* welcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = welcomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +137,8 @@
 				007CCD8F1DA51ED900241D1B /* LaunchScreen.storyboard */,
 				007CCD921DA51ED900241D1B /* Info.plist */,
 				007CCD811DA51ED900241D1B /* Supporting Files */,
+				007CCDD91DA527AE00241D1B /* welcomeViewController.h */,
+				007CCDDA1DA527AE00241D1B /* welcomeViewController.m */,
 			);
 			path = CIDEMO;
 			sourceTree = "<group>";
@@ -318,6 +323,7 @@
 				007CCDB71DA51FC400241D1B /* WSClient.m in Sources */,
 				007CCDD21DA5226300241D1B /* AFHTTPSessionManager.m in Sources */,
 				007CCD831DA51ED900241D1B /* main.m in Sources */,
+				007CCDDB1DA527AE00241D1B /* welcomeViewController.m in Sources */,
 				007CCDD31DA5226300241D1B /* AFNetworkReachabilityManager.m in Sources */,
 				007CCDD11DA5226300241D1B /* AFHTTPRequestOperationManager.m in Sources */,
 			);

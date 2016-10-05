@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "WSClient.h"
 #import "WSClient/WSClient+CallAPI.h"
+#import "welcomeViewController.h"
 
 @interface ViewController ()
 
@@ -34,6 +35,8 @@
          if(error == nil && [responseObject[0] [@"Status"] isEqualToString:@"Success"])
          {
              NSLog(@"%@",responseObject);
+             welcomeViewController *actListVC = [self.storyboard instantiateViewControllerWithIdentifier:@"welcomeViewController"];
+             [self.navigationController pushViewController:actListVC animated:true];
          }
          else
          {

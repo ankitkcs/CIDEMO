@@ -61,5 +61,32 @@
             </objects>
             <point key="canvasLocation" x="96" y="412"/>
         </scene>
+        <!--Welcome View Controller-->
+        <scene sceneID="9Zk-jX-MIC">
+            <objects>
+                <viewController storyboardIdentifier="welcomeViewController" id="20i-5Y-ww6" customClass="welcomeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9rZ-S7-mbO"/>
+                        <viewControllerLayoutGuide type="bottom" id="gI9-bI-ShJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mmj-Eg-4we">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to Continious Integration with TeamCity" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eS3-yg-ffP">
+                                <rect key="frame" x="20" y="198" width="275" height="75"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AWP-zJ-Ool" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="476" y="412"/>
+        </scene>
     </scenes>
 </document>
