@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    IBOutlet UITextField *txtUName;
+    IBOutlet UITextField *txtPass;
+}
 
 
 @end

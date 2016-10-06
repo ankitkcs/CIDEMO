@@ -28,7 +28,8 @@
 }
 
 - (IBAction)btnClick:(id)sender {
-    NSMutableDictionary *parameters = [NSMutableDictionary dictionaryWithDictionary:@{@"strUserName":@"itsdcio",@"strPassword":@"1234",@"strResolution":@"Theme640x1136"}];
+    [self.view endEditing:true];
+    NSMutableDictionary *parameters = [NSMutableDictionary dictionaryWithDictionary:@{@"strUserName":txtUName.text,@"strPassword":txtPass.text,@"strResolution":@"Theme640x1136"}];
     
     [[WSClient sharedClient] GetRequestWithParameters:parameters API:WSAPILogin complete:^(id responseObject, NSError *error)
      {
@@ -50,4 +51,10 @@
     
     
 }
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    [textField resignFirstResponder];
+    return true;
+}
+
 @end
