@@ -25,6 +25,7 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    //Demoß
 }
 
 - (IBAction)btnClick:(id)sender {
@@ -42,10 +43,8 @@
          else
          {
              if(responseObject){
-                
              }
          }
-         
      }];
 
     
