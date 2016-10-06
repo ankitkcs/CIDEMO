@@ -259,6 +259,7 @@
 				TargetAttributes = {
 					007CCD7D1DA51ED900241D1B = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = RD3743FZ36;
 					};
 					007CCD961DA51ED900241D1B = {
 						CreatedOnToolsVersion = 7.3;
@@ -457,7 +458,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Stojan Gorgiev (UZWBP8H87P)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CIDEMO/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.whatsup.magniutdegold;
@@ -470,7 +471,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Stojan Gorgiev (UZWBP8H87P)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CIDEMO/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.whatsup.magniutdegold;
