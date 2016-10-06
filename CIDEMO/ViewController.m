@@ -25,7 +25,7 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-    //Demo one
+    //Demo two
 }
 
 - (IBAction)btnClick:(id)sender {
